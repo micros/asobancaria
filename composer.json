@@ -1,0 +1,23 @@
+{
+    "name": "micros/asobancaria",
+    "description": "Librería para procesar archivos de formato ASOBANCARIA.",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Leonardo Forero Sandoval",
+            "email": "gerencia@micrositios.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
